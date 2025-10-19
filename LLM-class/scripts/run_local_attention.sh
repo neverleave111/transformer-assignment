@@ -1,0 +1,1 @@
+python src/train.py --dataset cnn_dailymail --dataset_config 3.0.0 --tokenizer_name t5-small --seq_len 256 --batch_size 8 --epochs 30 --seed 42 --attention_type local --local_window 16 --save_dir results/local_attn --max_samples 2000 --relative_pos True

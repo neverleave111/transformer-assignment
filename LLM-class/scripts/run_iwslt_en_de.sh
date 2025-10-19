@@ -1,0 +1,1 @@
+python src/train.py --dataset iwslt2017 --local_data_dir src/data/iwslt2017/en-de --src_lang en --tgt_lang de --seq_len 512 --batch_size 32 --max_samples 100000 --epochs 30 --seed 42 --save_dir results/iwslt_en_de

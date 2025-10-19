@@ -1,0 +1,12 @@
+run,last_epoch,last_epoch_avg_loss
+attn_linear,10,0.0414
+attn_local_w16,10,0.0009
+attn_local_w8,10,0.0006
+baseline,10,0.0284
+iwslt_encdec,10,0.6816
+iwslt_encdec_rel,10,0.7047
+iwslt_encoderonly,10,0.6454
+no_grad_clip,10,0.0252
+pos_learned,10,0.2216
+pos_removed,10,1.2584
+rel_on,10,0.0004
