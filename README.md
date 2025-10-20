@@ -4,16 +4,18 @@
 
 ---
 
-## 环境与依赖（推荐）
+## 环境与依赖
 
 下面给出**优先推荐（conda）**的安装步骤，后面还提供 **pip 备用方案** 与常见错误的排查方法。
 
-### 1) 创建 conda 环境（推荐）
+### 1) 创建 conda 环境并安装依赖
 
 ```bash
 # 创建并激活环境
 conda create -n llm_class python=3.9 -y
 conda activate llm_class
+# 如果可以通过下面的requirments安装则只需要执行完第二步即可结束
+pip install -r requirements.txt
 ```
 
 ### 2) 安装 PyTorch（按你的 CUDA 版本选择）
