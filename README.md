@@ -251,7 +251,6 @@ scripts/      # 运行与实验脚本
 scripts/ablation/  # 消融脚本集合
 tools/        # 生成与评估工具
 results/      # 实验输出
-report.tex    # LaTeX 实验报告
 README.md
 ```
 
