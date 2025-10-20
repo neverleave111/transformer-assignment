@@ -73,25 +73,19 @@ pip install matplotlib tqdm pandas sacrebleu rouge_score
 
 ---
 
-## 数据准备（数据仓库中已经全部包含）
+## 数据准备（由于数据集比较大无法直接放到仓库中，这里提供Google Drive的下载链接，请自行下载解压后放到LLM-class/src/data文件夹中）
 
 ### tiny_shakespeare
 
-* 无需额外下载（脚本/代码中通常能自动构造或内置）。
+https://drive.google.com/file/d/1xGJV7Ie-VSBevWi2IoAXp34Wv5oDYEJH/view?usp=drive_link
 
 ### IWSLT2017 (en-de)
 
-* 如果你的环境不能自动下载，请把 IWSLT 的 XML 文件手动放到：
-
-```
-src/data/iwslt2017/en-de/
-```
-
-目录下应包含诸如 `IWSLT17.TED.tst2010.en-de.en.xml`、`train.tags.en-de.en` 等文件。训练脚本支持 `--local_data_dir` 指定路径。
+https://drive.google.com/file/d/18NTGyLCtDOMMYq79XVfv05IVJoQCz6cP/view?usp=drive_link
 
 ### CNN/DailyMail
 
-* 如果使用该数据集且无法联网，请提前准备好相应的本地数据，并在 `src/data.py` 中适配读取逻辑或在调用时指定本地路径。
+https://drive.google.com/file/d/1jG2Qnn2z5rIo3Chir3B9zNgFGEekO3dn/view?usp=drive_link（代码中有下载方法，直接执行代码可不用下载）
 
 ---
 
